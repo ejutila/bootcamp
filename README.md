@@ -21,10 +21,10 @@ est. Sept. 2023
 
 ## Credits
 
-Abdullah
-Ethan
-Leila
-Emanuel
+#Abdullah  
+#Ethan
+#Leila
+#Emanuel
 
 ## License
 
