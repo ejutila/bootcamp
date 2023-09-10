@@ -9,6 +9,12 @@ body {
   display: none;
 }
 
+#container {
+	margin: 0 auto;
+	display: flex; flex-direction: column;
+	max-width: 100%;
+}
+
 :root {
   /* fonts */
   --font-montserrat: Montserrat;
@@ -50,7 +56,7 @@ body {
   --br-3xs: 10px;
 }
 
-.fanshawe-internationalprimary-icon1 {
+.logo {
   position: absolute;
   height: calc(100% - 10px);
   top: 5px;
@@ -67,6 +73,8 @@ body {
   width: 37px;
   height: 25px;
 }
+
+
 
 /* Hamburger Menu*/
 
@@ -141,14 +149,14 @@ body {
   height: 71px;
 }
 .interactive-media-design1,
-.lorem-ipsum-dolor5 {
+.learn-1 {
   position: absolute;
   top: calc(50% - 28.5px);
   left: calc(50% - 62.5px);
   letter-spacing: 0.17px;
   line-height: 21px;
 }
-.lorem-ipsum-dolor5 {
+.learn-1 {
   top: calc(50% + 15.5px);
   font-size: var(--font-size-7xs);
   letter-spacing: 0.06px;
@@ -157,7 +165,7 @@ body {
   color: var(--color-darkslategray);
   width: 118px;
 }
-.fanshawe-college-logo-7837af18-icon1 {
+.f-star {
   position: absolute;
   height: calc(100% - 14px);
   top: 1px;
@@ -186,9 +194,10 @@ body {
   height: 171px;
   font-size: var(--font-size-mid);
   color: var(--color-firebrick);
+  font-weight: bold;
 }
-.path-54-icon1,
-.path-55-icon1 {
+.grey-1,
+.grey-2 {
   position: absolute;
   height: 100%;
   top: 0;
@@ -196,23 +205,24 @@ body {
   max-height: 100%;
   opacity: 0.2;
 }
-.path-54-icon1 {
+.grey-1 {
   width: calc(100% - 71.2px);
   right: 71.2px;
   left: 0;
   max-width: 100%;
   overflow: hidden;
 }
-.path-55-icon1 {
+.grey-2 {
   right: 42.24px;
   width: 97.85px;
 }
-.the-2023-sdpa-container1 {
+.ind-con {
   position: absolute;
   width: calc(100% - 20.4px);
   bottom: 0;
   left: 9.71px;
   font-size: var(--font-size-6xs);
+  font-weight: bold;
   letter-spacing: 0.07px;
   line-height: 8px;
   display: inline-block;
@@ -222,27 +232,29 @@ body {
   top: 0;
   left: 0;
   font-size: var(--font-size-xl);
+  font-weight: bold;
   letter-spacing: 0.2px;
 }
-.address-137-dundas-container1 {
+.address-1 {
   position: absolute;
   top: calc(50% - 67px);
   left: 0;
   letter-spacing: 0.08px;
   line-height: 14px;
+  font-weight: bold;
 }
-.am-12pm1,
-.april-20-20241 {
+.time-1,
+.date-1 {
   position: absolute;
   top: 0;
   right: -1px;
   letter-spacing: 0.08px;
 }
-.am-12pm1 {
+.time-1 {
   top: 17px;
   right: 5px;
 }
-.the-2023-sdpa-industry-night-w-group {
+.ind-night {
   position: absolute;
   height: calc(100% - 47.67px);
   width: calc(100% - 30.68px);
@@ -251,7 +263,7 @@ body {
   bottom: 29.04px;
   left: 21.45px;
 }
-.best-deals-section5 {
+.white-box-1{
   position: absolute;
   height: calc(100% - 52.56px);
   width: calc(100% - 84.91px);
@@ -262,21 +274,21 @@ body {
   background-color: var(--color-white);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.16);
 }
-.path-56-group {
+.in-1{
   position: absolute;
   top: 242px;
   left: 0;
   width: 375px;
   height: 292.23px;
 }
-.path-46-icon1,
-.path-57-icon {
+.grey-4,
+.in-1-img {
   position: absolute;
   left: 0;
   max-width: 100%;
   overflow: hidden;
 }
-.path-57-icon {
+.in-1-img {
   height: 100%;
   width: 100%;
   top: 0;
@@ -284,22 +296,23 @@ body {
   bottom: 0;
   max-height: 100%;
 }
-.path-46-icon1 {
+.grey-4 {
   width: calc(100% - 27.94px);
   top: 23.31px;
   right: 27.94px;
   height: 184.79px;
 }
-.knowledge-and-hands-on {
+.text {
   margin: 0;
 }
-.fanshawe-colleges-interactive-container1 {
+.ind-night-con {
   position: absolute;
   width: calc(100% - 62px);
   top: 33.85px;
   left: 16.6px;
   letter-spacing: 0.07px;
   line-height: 8px;
+  font-weight: bold;
   display: inline-block;
 }
 .quote-circle1-icon4,
@@ -341,7 +354,7 @@ body {
   display: none;
   opacity: 0.62;
 }
-.best-deals-section6 {
+.vid-box {
   position: absolute;
   right: 27.94px;
   bottom: 29.33px;
@@ -376,7 +389,7 @@ body {
   font-size: var(--font-size-8xs);
   color: var(--color-white);
 }
-.path-57-parent {
+.in-2 {
   position: absolute;
   top: 534.23px;
   left: 0;
@@ -528,12 +541,13 @@ body {
   height: 89.92px;
   color: inherit;
 }
-.lorem-ipsum-dolor-container4 {
+.client-proj {
   position: absolute;
   width: calc(100% - 36px);
   top: calc(50% + 13.5px);
   left: 22.16px;
   font-size: var(--font-size-6xs);
+  font-weight: bold;
   letter-spacing: 0.07px;
   line-height: 10px;
   display: inline-block;
@@ -575,7 +589,7 @@ body {
   width: 278px;
   height: 6px;
 }
-.path-58-parent {
+.profiles {
   position: absolute;
   top: 847.54px;
   left: 0;
@@ -583,7 +597,7 @@ body {
   height: 563px;
   font-size: var(--font-size-9xs);
 }
-.lorem-ipsum-dolor-container5 {
+.s-proj-2 {
   position: absolute;
   top: 54px;
   left: 16.6px;
@@ -599,7 +613,7 @@ body {
   letter-spacing: 0.3px;
   line-height: 29px;
 }
-.group-child9 {
+.projects {
   position: absolute;
   top: calc(50% - 244.5px);
   left: calc(50% - 64.5px);
@@ -609,24 +623,24 @@ body {
   width: 130px;
   height: 30px;
 }
-.click-to-see3,
-.click-to-see4 {
+.l-btn-1,
+.l-btn-2 {
   position: absolute;
   letter-spacing: 0.08px;
 }
-.click-to-see3 {
+.l-btn-1 {
   text-decoration: none;
   top: calc(50% - 234.5px);
   left: calc(50% - 49.5px);
   font-weight: 700;
   color: var(--color-white);
 }
-.click-to-see4 {
+.l-btn-2 {
   top: calc(50% - 5px);
   left: 15px;
 }
-.click-to-see-the-project-container,
-.click-to-see-the-project-wrapper {
+.proj-3 ,
+.btn-learn{
   text-decoration: none;
   position: absolute;
   left: calc(50% - 64.5px);
@@ -637,46 +651,46 @@ body {
   height: 30px;
   color: var(--color-white);
 }
-.click-to-see-the-project-wrapper {
+.btn-learn{
   top: calc(50% + 173.5px);
 }
-.click-to-see-the-project-container {
+.proj-3 {
   bottom: 76px;
 }
-.group-child10,
-.screen-shot-2023-09-06-at-1011 {
+.sam-k,
+.proj-1-img {
   position: absolute;
   width: calc(100% - 113px);
   right: 56px;
   left: 57px;
   border-radius: var(--br-10xs);
 }
-.screen-shot-2023-09-06-at-1011 {
+.proj-1-img {
   top: 101px;
   max-width: 100%;
   overflow: hidden;
   height: 205px;
   object-fit: cover;
 }
-.group-child10 {
+.sam-k {
   top: calc(50% - 405.5px);
   background-color: var(--color-white);
   border: 3px solid var(--color-darkslategray);
   box-sizing: border-box;
   height: 75px;
 }
-.by-sam-kingston1 {
+.name-sam-k {
   position: absolute;
   top: calc(50% - 360.5px);
   left: calc(50% - 36.5px);
   letter-spacing: 0.08px;
 }
-.lorem-ipsum-dolor-container6 {
+.proj-1-p {
   top: calc(50% - 317.5px);
 }
-.lorem-ipsum-dolor-container6,
-.lorem-ipsum-dolor-container7,
-.lorem-ipsum-dolor-container8 {
+.proj-1-p ,
+.proj-2-p,
+.proj-3-p {
   position: absolute;
   left: calc(50% - 121.5px);
   font-size: var(--font-size-2xs);
@@ -684,10 +698,10 @@ body {
   line-height: 14px;
   font-weight: 500;
 }
-.lorem-ipsum-dolor-container7 {
+.proj-2-p {
   top: calc(50% + 100.5px);
 }
-.lorem-ipsum-dolor-container8 {
+.proj-3-p {
   bottom: 123px;
 }
 .motion-design1 {
@@ -698,22 +712,22 @@ body {
   letter-spacing: 0.16px;
   line-height: 15px;
 }
-.group-child11,
-.tidell-icon1 {
+.web-design1,
+.proj-2-img {
   position: absolute;
   width: calc(100% - 112px);
   right: 56px;
   left: 56px;
   border-radius: var(--br-10xs);
 }
-.tidell-icon1 {
+.proj-2-img {
   top: calc(50% - 178.5px);
   max-width: 100%;
   overflow: hidden;
   height: 197px;
   object-fit: cover;
 }
-.group-child11 {
+.web-design1 {
   top: calc(50% + 12.5px);
   background-color: var(--color-white);
   border: 3px solid var(--color-darkslategray);
@@ -721,32 +735,32 @@ body {
   height: 75px;
 }
 .by-maria-smith1,
-.website-design1 {
+.web-design2 {
   position: absolute;
   top: calc(50% + 57.5px);
   left: calc(50% - 32.5px);
   letter-spacing: 0.08px;
 }
-.website-design1 {
+.web-design2 {
   top: calc(50% + 31px);
   left: calc(50% - 67px);
   font-size: var(--font-size-base);
   letter-spacing: 0.16px;
   line-height: 15px;
 }
-.group-child12,
-.screen-shot-2023-09-06-at-9431 {
+.web-dev1,
+.proj-3-img {
   position: absolute;
   right: 54px;
   border-radius: var(--br-10xs);
 }
-.screen-shot-2023-09-06-at-9431 {
+.proj-3-img {
   top: calc(50% + 239.5px);
   width: 263px;
   height: 202px;
   object-fit: cover;
 }
-.group-child12 {
+.web-dev1 {
   bottom: 192px;
   background-color: var(--color-white);
   border: 3px solid var(--color-darkslategray);
@@ -768,14 +782,14 @@ body {
   letter-spacing: 0.16px;
   line-height: 15px;
 }
-.path-59-parent {
+.s-proj {
   position: absolute;
   bottom: 226.46px;
   left: 0;
   width: 375px;
   height: 1395px;
 }
-.fanshawe-internationalprimary-icon2 {
+.footer-logo {
   position: absolute;
   top: 11px;
   left: 3px;
@@ -783,7 +797,7 @@ body {
   height: 80px;
   object-fit: cover;
 }
-.fanshawe-college-blvd-london-container1 {
+.fanshawe-address {
   position: absolute;
   top: calc(50% - 32.44px);
   left: 30.5px;
@@ -791,13 +805,13 @@ body {
   letter-spacing: 0.07px;
   font-weight: 500;
 }
-.apply-now3 {
+.apply-now-p {
   position: absolute;
   top: calc(50% - 4.5px);
   left: calc(50% - 17px);
   letter-spacing: 0.06px;
 }
-.apply-now-frame {
+.apply-now-btn {
   text-decoration: none;
   position: absolute;
   top: calc(50% - 76.44px);
@@ -808,7 +822,7 @@ body {
   height: 29px;
   color: inherit;
 }
-.screen-shot-2023-09-08-at-5581 {
+.social {
   position: absolute;
   bottom: 32.89px;
   left: calc(50% - 69.5px);
