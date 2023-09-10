@@ -1,3 +1,51 @@
+/* Global Styling*/
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-7xs: 6px;
+  --font-size-6xs: 7px;
+  --font-size-10xl: 29px;
+  --font-size-9xs: 4px;
+  --font-size-5xs: 8px;
+  --font-size-8xs: 5px;
+  --font-size-12xs: 1px;
+  --font-size-3xs: 10px;
+  --font-size-2xs: 11px;
+  --font-size-4xs: 9px;
+  --font-size-xs: 12px;
+  --font-size-11xl: 30px;
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+  --font-size-mid: 17px;
+  --font-size-31xl: 50px;
+  --font-size-10xs: 3px;
+  --font-size-sm: 14px;
+  --font-size-mini: 15px;
+  --font-size-32xl: 51px;
+  --font-size-smi: 13px;
+  --font-size-lg: 18px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gainsboro: #e4e4e4;
+  --color-firebrick: #bf2f27;
+  --color-darkslategray: #37332b;
+  --color-lightgray: #cecece;
+
+  /* Border radiuses */
+  --br-10xs: 3px;
+  --br-8xs: 5px;
+  --br-3xs: 10px;
+}
+
 .fanshawe-internationalprimary-icon1 {
   position: absolute;
   height: calc(100% - 10px);
