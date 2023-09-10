@@ -293,6 +293,11 @@ body {
   left: calc(50% - 15px);
   letter-spacing: 0.05px;
 }
+
+.idp-vid {
+  width: 234px;
+  height: 151px;
+}
 .group-a {
   text-decoration: none;
   position: absolute;
