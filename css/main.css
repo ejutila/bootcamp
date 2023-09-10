@@ -5,6 +5,10 @@ body {
   line-height: normal;
 }
 
+.hidden {
+  display: none;
+}
+
 :root {
   /* fonts */
   --font-montserrat: Montserrat;
@@ -66,6 +70,67 @@ body {
 
 /* Hamburger Menu*/
 
+.navbar {
+  background-color: #333;
+  color: white;
+  position: relative; /* Add position relative to the navbar container */
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  position: absolute; /* Add position absolute to the menu */
+  top: 0;
+  right: 0; /* Position it at the top-right corner */
+}
+
+.menu li {
+  padding: 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Hamburger icon styles */
+.menu-toggle {
+  cursor: pointer;
+  display: none;
+  position: absolute; 
+  top: 15px; 
+  right: 15px; 
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .menu {
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu.active {
+    display: flex;
+  }
+}
 
 .header1 {
   position: absolute;

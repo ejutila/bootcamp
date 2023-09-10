@@ -1,21 +1,8 @@
 /* Hamburger Menu*/
 
-(function(){
-	"use strict";	
-	console.log("fired");
+const menuToggle = document.querySelector('.menu-toggle');
+const menu = document.querySelector('.menu');
 
-	let button = document.querySelector("#button");
-	let burgerCon = document.querySelector("#burger-con");
-
-	function hamburgerMenu() {
-		burgerCon.classList.toggle("slide-toggle");
-		button.classList.toggle("expanded");
-	};
-
-	// let hamburgerMenu = () => {
-	// 	burgerCon.classList.toggle("slide-toggle");
-	// 	button.classList.toggle("expanded");
-	// };
-
-	button.addEventListener("click", hamburgerMenu, false);		
-})();
+menuToggle.addEventListener('click', () => {
+  menu.classList.toggle('active');
+});
