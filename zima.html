@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
+        <link href="css/zima-grid.css" rel="stylesheet">
+        <link href="css/zima-main.css" rel="stylesheet">
+        <title>Welcome to Zima</title> 
+    </head>
+    <body>
+        <h1 class="hidden">ZIMA</h1>
+        <header class="grid-con header" id="main-header">
+            <div class="col-start-1 col-end-2 m-col-start-1 m-col-end-3 xl-col-start-2 xl-col-end-3" id="main-logo">
+                <img src="images/ZimaLogo.svg" alt="Zima Logo">
+            </div>
+            <div class="col-start-2 m-col-start-4 m-col-end-10 col-end-4 l-col-start-10 xl-col-start-10">
+                
+                        <form class="search" method="get" action="process.php">
+                            <label class="hidden">*Search</label>
+                            <input id="search" type="text" placeholder="Search">
+                         </form>
+                
+            </div>
+            <nav class="col-end-5 m-col-start-11 m-col-end-13 l-col-start-3 l-col-end-10" id="Nav-Desktop"> 
+                <h2 class="hidden">Main Navigation</h2>
+                    <button id="button"></button>
+                    <div id="burger-con">
+                        <ul>
+                            <li><a href="zima.html">Home</a></li>
+                            <li><a href="#">Best Deals</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="404page.html">Blog</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+            </nav>
+
+        </header>
+
+        <main>
+            <section class="grid-con hero">
+                <h2 class="hidden">Hero Image</h2>
+                <img
+                sizes="(max-width: 1920px) 100vw, 1920px"
+                srcset="
+                images/hero_image_ddmvfg_c_scale,w_320.png 320w,
+                images/hero_image_ddmvfg_c_scale,w_874.png 874w,
+                images/hero_image_ddmvfg_c_scale,w_1213.png 1213w,
+                images/hero_image_ddmvfg_c_scale,w_1920.png 1920w"
+                src="images/hero_image_ddmvfg_c_scale,w_1920.png"
+                alt="hero-image" id="hero-image">
+
+                
+                <div class="col-start-1 col-end-5 m-col-start-2 m-col-end-6 hero-text">
+                    <h2>Hype Up With Zima</h2>
+                </div>
+                <div  class="col-start-1 col-end-2 m-col-start-2 m-col-end-4 s_more more">
+                    <a href="#"><h3>Shop More</h3></a> 
+                </div>
+                <div class="col-start-3 col-end-4 m-col-start-4 m-col-end-6 l_more more">
+                    <a href="#"><h3>Learn More</h3></a>
+                </div>
+            </section>
+
+            <section class="grid-con" id="promo-con">
+                <h2 class="hidden">Promotion Image</h2>
+                       
+                <img class="col-start-1 col-end-5 m-col-end-12 m-col-start-2 l-col-start-3 l-col-end-11 promo-pic" id="promo-pic"
+                sizes="100vw"
+                srcset="
+                images/memories_z8krqd_c_scale,w_320.jpg 320w,
+                images/memories_z8krqd_c_scale,w_1478.jpg 1478w,
+                images/memories_z8krqd_c_scale,w_2212.jpg 2212w,
+                images/memories_z8krqd_c_scale,w_2843.jpg 2843w,
+                images/memories_z8krqd_c_scale,w_3259.jpg 3259w,
+                images/memories_z8krqd_c_scale,w_3455.jpg 3455w,
+                images/memories_z8krqd_c_scale,w_3981.jpg 3981w,
+                images/memories_z8krqd_c_scale,w_4352.jpg 4352w,
+                images/memories_z8krqd_c_scale,w_4580.jpg 4580w,
+                images/memories_z8krqd_c_scale,w_4588.jpg 4588w"
+                src="images/memories_z8krqd_c_scale,w_4588.jpg"
+                alt="Memories Image">
+                
+                <div class="col-start-2 col-end-4 m-col-end-9 m-col-start-5 l-col-end-7 l-col-start-4" id="promo-text"> 
+                    <h3>Shake, Stir, Mix and make Memories with Zima</h3>
+                </div>
+    
+                <div class="l-col-start-7 l-col-end-10" id="promo-text-2">
+                    <h3>Taste icy, cold, ready filled exictment.</h3>
+                </div>
+            </section>
+
+            <section class="grid-con" id="store">
+                <h2 class="col-start-2 col-end-4 m-col-start-6 m-col-end-8 shop">SHOP</h2>
+                <div class="m-col-start-3 m-col-end-11 shop-text">
+                    Zima has different fruity flavours.<br> Get a peak of the shop page and find what you love. Enjoy!
+                </div>
+                <!-- <div>
+                <h3 class="buy-me col-start-2 col-end-3">Buy Me</h3>
+                </div> -->
+                <img class="col-start-1 col-end-2 m-col-start-1 m-col-end-3 product1" id="product1"
+                    sizes="100vw"
+                    srcset="
+                    images/product-original_fyj4ld_c_scale,w_320.png 320w,
+                    images/product-original_fyj4ld_c_scale,w_758.png 758w,
+                    images/product-original_fyj4ld_c_scale,w_1023.png 1023w,
+                    images/product-original_fyj4ld_c_scale,w_1238.png 1238w,
+                    images/product-original_fyj4ld_c_scale,w_1412.png 1412w,
+                    images/product-original_fyj4ld_c_scale,w_1568.png 1568w,
+                    images/product-original_fyj4ld_c_scale,w_1736.png 1736w,
+                    images/product-original_fyj4ld_c_scale,w_1890.png 1890w,
+                    images/product-original_fyj4ld_c_scale,w_2008.png 2008w,
+                    images/product-original_fyj4ld_c_scale,w_2127.png 2127w"
+                    src="images/product-original_fyj4ld_c_scale,w_2127.png"
+                    alt="Zima Original">
+
+                <div class="col-start-3 col-end-4 m-col-start-4 m-col-end-6 product_1">
+                    <img
+                    sizes="100vw"
+                    srcset="
+                    images/product-lemon_vzm7rg_c_scale,w_320.png 320w,
+                    images/product-lemon_vzm7rg_c_scale,w_772.png 772w,
+                    images/product-lemon_vzm7rg_c_scale,w_1051.png 1051w,
+                    images/product-lemon_vzm7rg_c_scale,w_1270.png 1270w,
+                    images/product-lemon_vzm7rg_c_scale,w_1432.png 1432w,
+                    images/product-lemon_vzm7rg_c_scale,w_1607.png 1607w,
+                    images/product-lemon_vzm7rg_c_scale,w_1705.png 1705w,
+                    images/product-lemon_vzm7rg_c_scale,w_1866.png 1866w,
+                    images/product-lemon_vzm7rg_c_scale,w_1996.png 1996w,
+                    images/product-lemon_vzm7rg_c_scale,w_2127.png 2127w"
+                    src="images/product-lemon_vzm7rg_c_scale,w_2127.png"
+                    alt="Zima Lemon">
+                </div>  
+
+                <div class="col-start-1 col-end-3 m-col-start-7 m-col-end-9 product2">
+                    
+                    <img
+                    sizes="(max-width: 2127px) 100vw, 2127px"
+                    srcset="
+                    images/product-orange_hq4rqw_c_scale,w_320.png 320w,
+                    images/product-orange_hq4rqw_c_scale,w_839.png 839w,
+                    images/product-orange_hq4rqw_c_scale,w_1111.png 1111w,
+                    images/product-orange_hq4rqw_c_scale,w_1309.png 1309w,
+                    images/product-orange_hq4rqw_c_scale,w_1515.png 1515w,
+                    images/product-orange_hq4rqw_c_scale,w_1676.png 1676w,
+                    images/product-orange_hq4rqw_c_scale,w_1866.png 1866w,
+                    images/product-orange_hq4rqw_c_scale,w_1982.png 1982w,
+                    images/product-orange_hq4rqw_c_scale,w_2110.png 2110w,
+                    images/product-orange_hq4rqw_c_scale,w_2127.png 2127w"
+                    src="images/product-orange_hq4rqw_c_scale,w_2127.png"
+                    alt=" Zima Orange">
+
+                </div>
+
+                <div class="col-start-3 col-end-5 m-col-start-10 m-col-end-12 product_2">
+                    
+                    <img
+                    sizes="(max-width: 2127px) 100vw, 2127px"
+                    srcset="
+                    images/product-mint-lemon_l3heni_c_scale,w_320.png 320w,
+                    images/product-mint-lemon_l3heni_c_scale,w_804.png 804w,
+                    images/product-mint-lemon_l3heni_c_scale,w_1100.png 1100w,
+                    images/product-mint-lemon_l3heni_c_scale,w_1329.png 1329w,
+                    images/product-mint-lemon_l3heni_c_scale,w_1510.png 1510w,
+                    images/product-mint-lemon_l3heni_c_scale,w_1672.png 1672w,
+                    images/product-mint-lemon_l3heni_c_scale,w_1823.png 1823w,
+                    images/product-mint-lemon_l3heni_c_scale,w_1977.png 1977w,
+                    images/product-mint-lemon_l3heni_c_scale,w_2104.png 2104w,
+                    images/product-mint-lemon_l3heni_c_scale,w_2127.png 2127w"
+                    src="images/product-mint-lemon_l3heni_c_scale,w_2127.png"
+                    alt="Zima Mint Lemon">
+
+                </div>
+
+                <div class="col-start-2 col-end-4 m-col-start-6 m-col-end-8 smore">
+                    <a class="shop-more" href="#">Shop Now</a>
+                </div>
+            </section>
+
+            <section class="grid-con" id="blog">
+                <h2 class="col-start-2 col-end-4 m-col-start-6 m-col-end-8 blog">BLOG</h2>
+                
+                <div class="m-col-start-2 m-col-end-12 blog-text">
+                    <h3>Join our blog and submit your zima memories.You might just be the next Zima star.</h3>
+                    
+                </div>
+                <!-- <div class="blog-text-box col-start-1 col-end-4 m-col-start-2 m-col-end-5 blog-title">
+                    <h3>This Week's Star</h3>
+                </div> -->
+                <div class="col-start-1 col-end-5 m-col-start-2 m-col-end-7 blog-img">
+                    
+                    <img
+                    sizes="100vw"
+                    srcset="
+                    images/pexels-bia-sousa-2213051_hnfmoz_c_scale,w_320.jpg 320w,
+                    images/pexels-bia-sousa-2213051_hnfmoz_c_scale,w_1474.jpg 1474w,
+                    images/pexels-bia-sousa-2213051_hnfmoz_c_scale,w_2148.jpg 2148w,
+                    images/pexels-bia-sousa-2213051_hnfmoz_c_scale,w_2505.jpg 2505w,
+                    images/pexels-bia-sousa-2213051_hnfmoz_c_scale,w_2889.jpg 2889w,
+                    images/pexels-bia-sousa-2213051_hnfmoz_c_scale,w_3226.jpg 3226w,
+                    images/pexels-bia-sousa-2213051_hnfmoz_c_scale,w_3576.jpg 3576w,
+                    images/pexels-bia-sousa-2213051_hnfmoz_c_scale,w_3849.jpg 3849w,
+                    images/pexels-bia-sousa-2213051_hnfmoz_c_scale,w_3997.jpg 3997w,
+                    images/pexels-bia-sousa-2213051_hnfmoz_c_scale,w_4000.jpg 4000w"
+                    src="images/pexels-bia-sousa-2213051_hnfmoz_c_scale,w_4000.jpg"
+                    alt="">
+
+                </div>
+                <div class="col-start-1 col-end-4 m-col-start-2 m-col-end-5" id="blog-title"> 
+                    <a href="#"><h3>This Week's Star</h3></a>
+                    <p>Meet our Zima Star of the week as she purchases from one of our zima hotspot. Guess her favourite Zima.</p>
+                </div>
+
+                <div class="col-start-1 col-end-4 m-col-start-5 m-col-end-12" id="blog-title-1">
+                    <a href="#"><h3>Are you our Next Winner?</h3></a>
+                    <p>Get a chance to get your birthday party to be hosted and planned for you by zima. Win a Zima Birthday. Win all your bill taken care of by zima.</p>
+                </div>
+                <div class="col-start-1 col-end-4 m-col-start-5 m-col-end-12 blog-img-1">
+                    
+                    <img
+                    sizes=" 100vw"
+                    srcset="
+                    images/party_fbe2sa_c_scale,w_320.png 320w,
+                    images/party_fbe2sa_c_scale,w_411.png 411w,
+                    images/party_fbe2sa_c_scale,w_486.png 486w,
+                    images/party_fbe2sa_c_scale,w_559.png 559w,
+                    images/party_fbe2sa_c_scale,w_623.png 623w,
+                    images/party_fbe2sa_c_scale,w_683.png 683w,
+                    images/party_fbe2sa_c_scale,w_735.png 735w,
+                    images/party_fbe2sa_c_scale,w_792.png 792w,
+                    images/party_fbe2sa_c_scale,w_843.png 843w,
+                    images/party_fbe2sa_c_scale,w_865.png 865w"
+                    src="images/party_fbe2sa_c_scale,w_865.png"
+                    alt="">
+
+                </div>
+                <div class="col-start-1 col-end-1  m-col-start-2 m-col-end-5 l-col-start-3 l-col-end-5 read">
+                    <a class="red" href="#">Read</a> 
+                </div>
+            </section>
+    
+            <section class="grid-con" id="history">
+                <h2 class="hidden">HISTORY</h2>
+
+                <button onclick="playVid()" type="button" class="button col-start-1 col-end-2 m-col-start-6 m-col-end-8 vid-1" id="vid-1"><i class="fa fa-play"></i>.......Past...</button>
+
+                <button onclick="playVide()" type="button" class="button col-start-2 col-end-3 m-col-start-8 m-col-end-10 vid-2" onclick="playVide()" id="vid-2"><i class="fa fa-play"></i> .......Present...</button>
+
+                
+                <iframe id="video-1" src="https://www.youtube.com/embed/lSfBaVMViz8" title="Zima Old Video" class="video col-span-full m-col-start-1 m-col-end-13"></iframe> 
+                
+                <video id="video-2" class=" video col-span-full m-col-start-6 m-col-end-12">
+                    <source src="assets/zima.mp4" type="video/mp4">
+                </video>  
+
+                <video id="video-3" width="300" height="300" class="video col-span-full m-col-start-6 m-col-end-12">
+                    <source src="assets/why.mp4" type="video/mp4">
+                </video> 
+
+                
+
+                <button onclick="playVideo()" type="button" class="button vid-3 col-start-3 col-end-4 m-col-start-10 m-col-end-12" onclick="playVideo()" id="vid-3"><i class="fa fa-play"></i>.......Why??</button>
+
+                <button type="button" class="closeButton close col-start-3 col-end-4 m-col-start-9 m-col-end-12"><i class="fa fa-close"></i></button> 
+
+                <div class="col-start-1 col-end-5 m-col-start-2 m-col-end-6" id="zima-history">
+                    <a href="#">GET TO KNOW ZIMA</a>
+                </div>
+                <div class="col-span-full m-col-start-2 m-col-end-6" id="history-info">
+                    <p>Zima means "winter" in many Slavic languages. It was launched nationally in the United States as Zima Clearmalt in 1993.<br>
+                    The lemon-lime drink was part of the "clear craze" of the 1990s that produced products such as Crystal Pepsi and Tab Clear.<br>
+                    Zima was described as a "truly unique alcohol beverage" and used the tagline "Zomething different".</p>
+                </div> 
+
+            </section>
+
+        </main>
+
+        <footer>
+            <section class="grid-con" id="footer">
+                <h2 class="hidden">Footer</h2>
+                    <img  src="images/Logo-mobile.svg" alt="Logo" class="col-start-1 col-end-2 m-col-start-2 m-col-end-4 xl-col-start-2 xl-col-end-4" id="footer-logo">
+                
+                <div class="col-start-2 col-end-3 m-col-start-4 m-col-end-5 xl-col-start-3 xl-col-end-6" id="footer-nav">
+                    <h3>Site Map</h3>
+                    <ul>
+                     <li><a href="#">Home</a></li>
+                        <li><a href="#">Best Deals</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About Us</a></li>
+                        </ul>
+                </div>
+                <div class="col-start-3 col-end-5 m-col-start-4 m-col-end-7 l-col-start-6 l-col-end-8 xl-col-start-5 xl-col-end-8" id="contact">
+                    <h3>Contact</h3>
+                    <ul>
+                     <li><a href="#">Tell: +1 (416) 900-7755</a></li>
+                        <li><a href="#">Email: info[at]kadot.com</a></li>
+                        <li><a href="#">30 Fulton Way, Unit 8 Suite 100</a></li>
+                        <li>Richmond Hill, Canada</li>
+                    </ul>
+                </div>
+                <div class="col-start-1 col-end-5 m-col-start-8 m-col-end-13 l-col-start-8 l-col-end-12" id="submit-info">
+                    <h2>Subscribe To Offers and Promotions</h2>
+                </div>
+                <form method="get" action="process.php" class="col-start-1 col-end-2 m-col-start-7 m-col-end-11 l-col-start-8 l-col-end-12" id="subscribe">
+                    <label class="hidden">*Email</label>
+                    <input id="username" type="text" placeholder="Full Name">
+                    <input  id="mail" type="Email" required placeholder="E-MAIL">
+                    <textarea id="fav" name="msg" placeholder="Favourite Flavour"></textarea>
+                    <input id="sub" type="submit" value="Submit">
+                </form>
+                
+                <div class="social-icons col-start-3 col-end-5 m-col-start-4 m-col-end-8 l-col-start-5 l-col-end-9 xl-col-start-5 xl-col-end-8">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div> 
+            </section>
+        </footer>
+
+
+
+        <script src="js/zima.js"></script>
+    </body>
+</html>
