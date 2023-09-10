@@ -21,13 +21,13 @@ est. Sept. 2023
 
 ## Credits
 
-Abdullah  
+Abdullah  Sultan
 
-Ethan
+Ethan Jutila 
 
-Leila
+Leila Akbari
 
-Emanuel
+Emmanuel Kabongo
 
 ## License
 
